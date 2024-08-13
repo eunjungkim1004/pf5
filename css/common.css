@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: 'Pretendard-Regular';
+}
+.wrap{
+    max-width: 1720px;
+    margin: 0 auto;
+  }
+  .h1{
+  font-size: calc(48px * 0.8);
+  }
+  .h2{
+  font-size: 35PX;
+  font-weight: 700;
+  letter-spacing: -1.4;
+  text-transform: uppercase;
+  /* position: absolute; */
+  top: 35px;
+  width: 100% !important;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  box-sizing: border-box;
+  }
+  .h3{
+  font-size: calc(30px * 0.8);
+  font-weight: 600;
+  }
+  .h4{
+  font-size: calc(32px * 0.8);
+  }
+  .h5{
+  font-size: 20px;
+  }
+  .h6{
+  font-size: 16px
+  }
+  .p15{
+  font-size: 15px
+  }
+  .sm14{
+  font-size: 14px
+  }
+  .sm13{
+  font-size: 13px
+  }
+  .sm11{
+  font-size: 11px
+  }
+  .block{
+    display: block;
+  }
+  .bold{
+    font-weight: 700;
+  }
+  .paddingT20{
+    padding-top: 20px;
+  }
+  .paddingB20{
+    padding-bottom: 20px;
+  }
+  .paddingT30{
+    padding-top: 30px;
+  }
+  .paddingB30{
+    padding-bottom: 30px;
+  }
+  .paddingT40{
+    padding-top: 40px;
+  }
+  .paddingB40{
+    padding-bottom: 40px;
+  }
+  .paddingT50{
+    padding-top: 50px;
+  }
+  .paddingB50{
+    padding-bottom: 50px;
+  }
+  .marginB30{
+    margin-bottom:40px; 
+  }
+  .current{
+    background-color: #00f !important;
+    color: #fff;
+  }
+  .flex{
+    display:flex;
+  }
+  .hide{
+    display: none;
+  }
+  .grid{
+    display:grid ;
+  }
+  /* 보더스타일 */
+  .borderT::before{
+    content: "";
+    border-top: 5px solid #0bb5b5;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 80px;
+  }
+  .center{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  /* 버튼스타일 */
+  .b-small{
+    width: fit-content;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center; 
+  }
+  .b-medium{
+    width: fit-content;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center; 
+  }
+  .b-big{
+    width: fit-content;
+    padding:15px;
+    font-size: 16px;
+    text-align: center; 
+  }
+  .red{
+    background-color: red;
+  }
+  .green{
+    background-color: #0bb5b580;
+    color: #fff;
+  }
+  .blue{
+    background-color: blue;
+    color: #fff;
+  }
+  .rounded{
+    border-radius: 11px;
+  }
+  .border1{
+    color: #fff !important;
+    border: 4px solid #0bb5b580;
+  }
+
